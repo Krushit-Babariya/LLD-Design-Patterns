@@ -21,6 +21,10 @@ public class TVOnCommand implements Command {
         }
     }
 
+    public void redo() {
+
+    }
+
     public void add() {
 
     }

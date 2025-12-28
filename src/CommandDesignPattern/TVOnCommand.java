@@ -20,13 +20,5 @@ public class TVOnCommand implements Command {
             tv.turnOff();
         }
     }
-
-    public void redo() {
-
-    }
-
-    public void add() {
-
-    }
 }
 

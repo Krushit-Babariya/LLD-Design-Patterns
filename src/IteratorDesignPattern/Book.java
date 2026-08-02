@@ -1,0 +1,31 @@
+package IteratorDesignPattern;
+
+public class Book {
+    private final String title;
+    private final String author;
+    private final String isbn;
+
+    public Book(String title, String author, String isbn) {
+        this.title = title;
+        this.author = author;
+        this.isbn = isbn;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public String getIsbn() {
+        return isbn;
+    }
+
+    @Override
+    public String toString() {
+        return String.format("Book: %s by %s (ISBN: %s)", title, author, isbn);
+    }
+}
+
